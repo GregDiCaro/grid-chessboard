@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  border: 10px groove #000;
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+}
+.items {
+  background-color: rgb(117, 111, 111);
+  border: 1px solid #fff;
+}
+.items-w {
+  background-color: #fff;
+  border: 1px solid rgb(117, 111, 111);
+}
